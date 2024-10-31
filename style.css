@@ -1,0 +1,83 @@
+.profile-img {
+    border-radius: 50%;
+    border: 5px solid #2C3E50;
+    transition: transform 0.3s ease;
+    max-width: 200px;
+    margin: 20px auto;
+    display: block;
+}
+
+.profile-img:hover {
+    transform: scale(1.1);
+}
+
+/* 2. Custom card hover effect */
+.custom-card {
+    transition: all 0.3s ease;
+    border-left: 4px solid transparent;
+}
+
+.custom-card:hover {
+    transform: translateY(-5px);
+    border-left: 4px solid #18BC9C;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* 3. Custom styling for section headings */
+.section-heading {
+    border-bottom: 3px solid #18BC9C;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.section-heading::after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background-color: #2C3E50;
+}
+
+/* 4. Custom list styling */
+.custom-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.custom-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ecf0f1;
+    transition: padding-left 0.3s ease;
+}
+
+.custom-list li:hover {
+    padding-left: 10px;
+    background-color: #f8f9fa;
+}
+
+/* 5. Custom footer styling */
+.custom-footer {
+    background-color: #2C3E50;
+    color: white;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+/* 6. Responsive video container */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

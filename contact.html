@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luukas Laitinen - Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="cv.html">CV</a>
+        <a href="hobbies.html">Hobbies</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="container">
+        <h1>Contact Me</h1>
+        
+        <form>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" value="" required>
+            </div>
+
+
+            
+            <div>
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" value="" required>
+            </div>
+
+
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" value="" required>
+            </div>
+
+
+
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+
+
+
+            <div>
+                <label for="source">How did you know about my page?</label>
+                <select id="source" name="source" required>
+                    <option value="google">Google</option>
+                    <option value="friend">From a friend</option>
+                    <option value="linkedin">From LinkedIn</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
